@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d5ce67d4.css",
+    "main.js": "/static/js/main.af46a861.js",
+    "static/media/old portfolio.png": "/static/media/old portfolio.9b5d70139438d7b5b1db.png",
+    "static/media/kasper.png": "/static/media/kasper.f3639dfe2599228b7fef.png",
+    "static/media/todo-list.png": "/static/media/todo-list.6ddf18dd1148bf9d28d8.png",
+    "static/media/leon.png": "/static/media/leon.0deaaac2e9b8f5e40c79.png",
+    "static/media/specail.png": "/static/media/specail.8c8e225a8329d9ddcca9.png",
+    "static/media/ProfilePicturePhoto.webp": "/static/media/ProfilePicturePhoto.63b1431fae3bc678b8f9.webp",
+    "static/media/aboutPhoto.jpg": "/static/media/aboutPhoto.ea1b6fc0533de5f7cc74.jpg",
+    "static/media/UdasityProject.png": "/static/media/UdasityProject.de35b2d70e305f432c7c.png",
+    "static/media/myNewPortfolio.png": "/static/media/myNewPortfolio.914040da0cfba5f50c7e.png",
+    "static/media/elzero web.png": "/static/media/elzero web.456f7cfd01afd40399bd.png",
+    "static/media/alhassn.png": "/static/media/alhassn.9481f431882c0c4e21dc.png",
+    "static/media/webLap.png": "/static/media/webLap.fb0abe56b34e69fd53a7.png",
+    "static/media/azkar.png": "/static/media/azkar.01e2b596924de52e6678.png",
+    "static/media/logo.png": "/static/media/logo.e8adc9214b7ce94d482e.png",
+    "static/media/purpleBall.png": "/static/media/purpleBall.ab83c94a57e95c8e3bda.png",
+    "static/media/link.png": "/static/media/link.f2aa4d72bc0bc2312860.png",
+    "static/media/bondi.png": "/static/media/bondi.72146f95fe2d38ec2994.png",
+    "static/media/tailwind-css.svg": "/static/media/tailwind-css.1c1e86a6ebbd92072372e65a5d45d4d7.svg",
+    "index.html": "/index.html",
+    "main.d5ce67d4.css.map": "/static/css/main.d5ce67d4.css.map",
+    "main.af46a861.js.map": "/static/js/main.af46a861.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5ce67d4.css",
+    "static/js/main.af46a861.js"
+  ]
+}
