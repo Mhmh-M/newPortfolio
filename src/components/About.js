@@ -17,7 +17,7 @@ export default function About() {
                 <div className="top flex justify-between items-center flex-col lg:flex-row">
                     <div data-aos="fade-right" className="left flex flex-[1] items-start flex-col gap-[10px]">
                         <h2 className="text-[2.2rem] mt-[-1.4rem] font-bold">About me</h2>
-                        <div className="aboutPhoto w-[180px] h-[180px] border-[3px] border-solid border-white rounded-[50%] overflow-hidden"></div>
+                        <div loading='lazy' className="aboutPhoto w-[180px] h-[180px] border-[3px] border-solid border-white rounded-[50%] overflow-hidden"></div>
                     </div>
                     <div data-aos="fade-left" className="right flex flex-[2] flex-col justify-center gap-10 text-2xl mt-[50px] lg:mt-3">
                         <div className="row flex justify-center items-center flex-wrap gap-5">

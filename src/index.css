@@ -467,15 +467,39 @@ footer .container h1 {
     } */
 }
 
+@-webkit-keyframes homeStr {
+
+    0%,
+    100% {
+        top: 12%
+    }
+
+    50% {
+        top: 11%;
+    }
+}
+
 @keyframes homeStr {
 
     0%,
     100% {
-        top: 16%
+        top: 12%
     }
 
     50% {
-        top: 15%;
+        top: 11%;
+    }
+}
+
+@-webkit-keyframes homeStr2 {
+
+    0%,
+    100% {
+        top: 29%
+    }
+
+    50% {
+        top: 30%;
     }
 }
 
@@ -491,6 +515,17 @@ footer .container h1 {
     }
 }
 
+@-webkit-keyframes servStar1 {
+
+    0% {
+        top: 43%
+    }
+
+    100% {
+        top: 46%;
+    }
+}
+
 @keyframes servStar1 {
 
     0% {
@@ -499,6 +534,17 @@ footer .container h1 {
 
     100% {
         top: 46%;
+    }
+}
+
+@-webkit-keyframes servStar2 {
+
+    0% {
+        top: 87%
+    }
+
+    100% {
+        top: 90%;
     }
 }
 
@@ -513,13 +559,41 @@ footer .container h1 {
     }
 }
 
-@keyframes contactstar {
+@-webkit-keyframes contactstar {
 
     0% {
+        -webkit-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
     100% {
+        -webkit-transform: translate(10px, 10px);
+        transform: translate(10px, 10px);
+    }
+}
+
+@keyframes contactstar {
+
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate(10px, 10px);
+        transform: translate(10px, 10px);
+    }
+}
+
+@-webkit-keyframes animation-two {
+
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate(10px, 10px);
         transform: translate(10px, 10px);
     }
 }
@@ -527,11 +601,32 @@ footer .container h1 {
 @keyframes animation-two {
 
     0% {
+        -webkit-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 
     100% {
+        -webkit-transform: translate(10px, 10px);
         transform: translate(10px, 10px);
+    }
+}
+
+
+
+@-webkit-keyframes wave {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    50% {
+        -webkit-transform: translateX(-25%);
+        transform: translateX(-25%);
+    }
+
+    100% {
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
     }
 }
 
@@ -539,15 +634,30 @@ footer .container h1 {
 
 @keyframes wave {
     0% {
+        -webkit-transform: translateX(0);
         transform: translateX(0);
     }
 
     50% {
+        -webkit-transform: translateX(-25%);
         transform: translateX(-25%);
     }
 
     100% {
+        -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
+    }
+}
+
+@-webkit-keyframes one {
+
+    0%,
+    100% {
+        top: 15px
+    }
+
+    50% {
+        top: 20px;
     }
 }
 
@@ -563,6 +673,18 @@ footer .container h1 {
     }
 }
 
+@-webkit-keyframes two {
+
+    0%,
+    100% {
+        bottom: -20px;
+    }
+
+    50% {
+        bottom: -15px;
+    }
+}
+
 @keyframes two {
 
     0%,
@@ -572,6 +694,18 @@ footer .container h1 {
 
     50% {
         bottom: -15px;
+    }
+}
+
+@-webkit-keyframes three {
+
+    0%,
+    100% {
+        top: 135px
+    }
+
+    50% {
+        top: 140px;
     }
 }
 
@@ -587,14 +721,41 @@ footer .container h1 {
     }
 }
 
-@keyframes aboutskill {
+@-webkit-keyframes aboutskill {
 
     0% {
+        -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
 
     100% {
+        -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
+    }
+}
+
+@keyframes aboutskill {
+
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes ball_One {
+
+    0%,
+    100% {
+        top: -20%
+    }
+
+    100% {
+        top: -15%;
     }
 }
 

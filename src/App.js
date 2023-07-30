@@ -11,7 +11,7 @@ import Clients from "./components/Clients";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import items from './components/Date';
+import items from './components/Data';
 
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
       <About />
       <Services />
       <Portfolio item={item} setItem={setItem} menuItems={menuItems} filterItem={filterItem} />
-      <Clients />
+      {/* <Clients /> */}
       <Contact />
       <Footer />
     </>

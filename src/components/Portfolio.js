@@ -1,8 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import '../index.css';
-import lottie from 'lottie-web';
-import linkImg from '../images/link.png';
-
 import Cards from "./Cards";
 import Buttons from "./Buttons";
 

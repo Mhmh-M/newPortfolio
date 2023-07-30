@@ -1,11 +1,12 @@
 export default function Contact() {
 
     return (
-        <section id="Contact" className=" relative overflow-hidden bg-[#160a2d]">
+        // <section id="Contact" className=" relative overflow-hidden bg-[#160a2d]">
+        <section id="Contact" className=" relative overflow-hidden bg-[#211141]">
             {/* Stars */}
-            <div className="animation-two top-[33%] left-[77%] w-[8px] h-[8px] bg-[#f67f03] stars"></div>
+            <div className="animation-two top-[24%] ssm:top-[33%] left-[77%] w-[8px] h-[8px] bg-[#f67f03] stars"></div>
             <div className="animation-one top-[54%] left-[19%] w-[6px] h-[6px] bg-[#a141f2] stars" id="contact_star"></div>
-            <div className=" top-[94%] left-[88%] w-[8px] h-[8px] bg-[#a141f2] stars"></div>
+            <div className=" top-[94%] left-[90%] md:left-[88%] w-[8px] h-[8px] bg-[#a141f2] stars"></div>
             {/* Container */}
             <div className="container min-h-[65vh] w-[70%] py-10 px-0">
                 <div className="head text-center">

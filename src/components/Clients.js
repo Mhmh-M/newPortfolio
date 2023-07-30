@@ -8,6 +8,15 @@ import alhassn from '../images/alhassn.png'
 
 export default function Clients() {
 
+    let clients = [
+        {
+            id: 1,
+            clientComment: 'الواد دا رجوله وميمة مية وبار بوالدية و بيدي عيدية',
+            clientImg: alhassn,
+            clientName: 'Alhassn',
+        }
+    ]
+
     return (
         <section className="bg-[#211141] overflow-hidden relative h-[78vh]">
             {/* Stars */}
@@ -31,7 +40,7 @@ export default function Clients() {
                     grabCursor={true}
                     centeredSlides={true}
                     loop={true}
-                    slidesPerView={3}
+                    slidesPerView={1}
                     coverflowEffect={{
                         rotate: 20,
                         stretch: 0,
@@ -43,29 +52,7 @@ export default function Clients() {
                     <SwiperSlide><div id='SwiperSlide' className=' rounded-lg w-[320px] h-[200px] sm:w-[424px] sm:h-[265px] '>
                         <div className='up h-[70%] w-full flex justify-center items-center'>
                             <div className='w-[80%] h-[80%] bg-[#ffffff33] border border-solid border-white rounded-[10px] p-4 text-[0.9rem] font-semibold leading-5'>
-                                الواد دا رجوله وميمة مية وبار بوالدية و بيدي عيدية<span>❤️😂😂</span><br />( Friend 1)
-                            </div>
-                        </div>
-                        <div className='down h-[25%] w-full flex justify-center items-center gap-5'>
-                            <img className='w-[50px] rounded-full' src={alhassn} alt='' />
-                            <h3 className='font-bold'>Alhassn Mohamed</h3>
-                        </div></div>
-                    </SwiperSlide>
-                    <SwiperSlide><div id='SwiperSlide' className=' rounded-lg w-[320px] h-[200px] sm:w-[424px] sm:h-[265px] '>
-                        <div className='up h-[70%] w-full flex justify-center items-center'>
-                            <div className='w-[80%] h-[80%] bg-[#ffffff33] border border-solid border-white rounded-[10px] p-4 text-[0.9rem] font-semibold leading-5'>
-                                الواد دا رجوله وميمة مية وبار بوالدية و بيدي عيدية<span>❤️😂😂</span><br />( Friend 2)
-                            </div>
-                        </div>
-                        <div className='down h-[25%] w-full flex justify-center items-center gap-5'>
-                            <img className='w-[50px] rounded-full' src={alhassn} alt='' />
-                            <h3 className='font-bold'>Alhassn Mohamed</h3>
-                        </div></div>
-                    </SwiperSlide>
-                    <SwiperSlide><div id='SwiperSlide' className=' rounded-lg w-[320px] h-[200px] sm:w-[424px] sm:h-[265px] '>
-                        <div className='up h-[70%] w-full flex justify-center items-center'>
-                            <div className='w-[80%] h-[80%] bg-[#ffffff33] border border-solid border-white rounded-[10px] p-4 text-[0.9rem] font-semibold leading-5'>
-                                الواد دا رجوله وميمة مية وبار بوالدية و بيدي عيدية<span>❤️😂😂</span><br />( Friend 3)
+                                hello <span>❤️😂😂</span><br />( Friend 1)
                             </div>
                         </div>
                         <div className='down h-[25%] w-full flex justify-center items-center gap-5'>
@@ -74,6 +61,19 @@ export default function Clients() {
                         </div></div>
                     </SwiperSlide>
 
+                    {/* {clients.map((e, i) => {
+                        <SwiperSlide><div id='SwiperSlide' className=' rounded-lg w-[320px] h-[200px] sm:w-[424px] sm:h-[265px] '>
+                            <div className='up h-[70%] w-full flex justify-center items-center'>
+                                <div className='w-[80%] h-[80%] bg-[#ffffff33] border border-solid border-white rounded-[10px] p-4 text-[0.9rem] font-semibold leading-5'>
+                                    {e[i].clientComment}<span>❤️😂😂</span><br />( Friend 2)
+                                </div>
+                            </div>
+                            <div className='down h-[25%] w-full flex justify-center items-center gap-5'>
+                                <img className='w-[50px] rounded-full' src={alhassn} alt='' />
+                                <h3 className='font-bold'>Alhassn Mohamed</h3>
+                            </div></div>
+                        </SwiperSlide>
+                    })} */}
                     <div className='slider-controler mt-16'>
                         <div className='swiper-button-prev slider-arrow !hidden'>
                             <ion-icon name='arrow-back-outline'></ion-icon>
